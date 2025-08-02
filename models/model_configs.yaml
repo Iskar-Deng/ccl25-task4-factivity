@@ -1,0 +1,224 @@
+models:
+  DeepSeek-V3:
+    api_key: "YOUR_API"
+    base_url: "https://api.deepseek.com/v1"
+    model_name: "deepseek-chat"
+    temperature: 0.2
+    max_tokens: 1024
+
+  DeepSeek-R1:
+    api_key: "YOUR_API"
+    base_url: "https://api.deepseek.com/v1"
+    model_name: "deepseek-reasoner"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Qwen-Max:
+    api_key: "YOUR_API"
+    base_url: "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
+    model_name: "qwen-max"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Qwen-Plus:
+    api_key: "YOUR_API"
+    base_url: "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
+    model_name: "qwen-plus"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Qwen-Turbo:
+    api_key: "YOUR_API"
+    base_url: "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
+    model_name: "qwen-turbo"
+    temperature: 0.2
+    max_tokens: 1024
+
+  GLM-4-Plus:
+    api_key: "YOUR_API"
+    base_url: "https://open.bigmodel.cn/api/paas/v4/"
+    model_name: "glm-4-plus"
+    temperature: 0.2
+    max_tokens: 1024
+
+  GLM-4-Air:
+    api_key: "YOUR_API"
+    base_url: "https://open.bigmodel.cn/api/paas/v4/"
+    model_name: "glm-4-air"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Hunyuan-Large:
+    api_key: "YOUR_API"
+    base_url: "https://api.hunyuan.cloud.tencent.com/v1"
+    model_name: "hunyuan-large"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Hunyuan-Standard:
+    api_key: "YOUR_API"
+    base_url: "https://api.hunyuan.cloud.tencent.com/v1"
+    model_name: "hunyuan-standard"
+    temperature: 0.2
+    max_tokens: 1024
+
+  Hunyuan-Turbo:
+    api_key: "YOUR_API"
+    base_url: "https://api.hunyuan.cloud.tencent.com/v1"
+    model_name: "hunyuan-turbo"
+    temperature: 0.2
+    max_tokens: 1024
+
+  Doubao-1.5-pro:
+    api_key: "YOUR_API"
+    base_url: "https://ark.cn-beijing.volces.com/api/v3"
+    model_name: "doubao-1-5-pro-32k-250115"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Doubao-1.5-lite:
+    api_key: "YOUR_API"
+    base_url: "https://ark.cn-beijing.volces.com/api/v3"
+    model_name: "doubao-1-5-lite-32k-250115"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Xunfei-4.0Ultra:
+    api_key: "YOUR_API"
+    base_url: "https://spark-api-open.xf-yun.com/v1"
+    model_name: "4.0Ultra"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Xunfei-Spark-Max:
+    api_key: "YOUR_API"
+    base_url: "https://spark-api-open.xf-yun.com/v1"
+    model_name: "generalv3.5"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Xunfei-Spark-Pro:
+    api_key: "YOUR_API"
+    base_url: "https://spark-api-open.xf-yun.com/v1"
+    model_name: "generalv3"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Xunfei-Spark-Lite:
+    api_key: "YOUR_API"
+    base_url: "https://spark-api-open.xf-yun.com/v1"
+    model_name: "lite"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  ERNIE-4.0:
+    api_key: "YOUR_API"
+    base_url: "https://qianfan.baidubce.com/v2"
+    model_name: "ernie-4.0-8k"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  ERNIE-4.0-Turbo:
+    api_key: "YOUR_API"
+    base_url: "https://qianfan.baidubce.com/v2"
+    model_name: "ernie-4.0-turbo-8k"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Step-2-16k-exp:
+    api_key: "YOUR_API"
+    base_url: "https://api.stepfun.com/v1"
+    model_name: "step-2-16k-exp"
+    temperature: 0.2
+    max_tokens: 1024
+
+  Step-2-16k:
+    api_key: "YOUR_API"
+    base_url: "https://api.stepfun.com/v1"
+    model_name: "step-2-16k"
+    temperature: 0.2
+    max_tokens: 1024
+    
+  Step-2-mini:
+    api_key: "YOUR_API"
+    base_url: "https://api.stepfun.com/v1"
+    model_name: "step-2-mini"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Grok-2:
+    api_key: "YOUR_API"
+    base_url: "https://api.x.ai/v1"
+    model_name: "grok-2-latest"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Grok-beta:
+    api_key: "YOUR_API"
+    base_url: "https://api.x.ai/v1"
+    model_name: "grok-beta"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  GPT-4.5-preview:
+    api_key: "YOUR_API"
+    base_url: "https://api.openai.com/v1"
+    model_name: "gpt-4.5-preview"
+    temperature: 0.2
+    max_tokens: 1024
+
+  GPT-4o:
+    api_key: "YOUR_API"
+    base_url: "https://api.openai.com/v1"
+    model_name: "gpt-4o"
+    temperature: 0.2
+    max_tokens: 1024
+      
+  GPT-4o-mini:
+    api_key: "YOUR_API"
+    base_url: "https://api.openai.com/v1"
+    model_name: "gpt-4o-mini"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Gemini-2.0-Flash:
+    api_key: "YOUR_API"
+    base_url: "https://generativelanguage.googleapis.com/v1beta/openai"
+    model_name: "gemini-2.0-flash"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Gemini-2.0-Flash-Lite:
+    api_key: "YOUR_API"
+    base_url: "https://generativelanguage.googleapis.com/v1beta/openai"
+    model_name: "gemini-2.0-flash-lite"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Claude-3.7-Sonnet:
+    api_key: "YOUR_API"
+    base_url: "https://api.anthropic.com/v1/"
+    model_name: "claude-3-7-sonnet-latest"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Claude-3.5-Haiku:
+    api_key: "YOUR_API"
+    base_url: "https://api.anthropic.com/v1/"
+    model_name: "claude-3-5-haiku-latest"
+    temperature: 0.2
+    max_tokens: 1024
+
+  Llama-3.3-70b:
+    api_key: "YOUR_API"
+    base_url: "https://api.llama-api.com"
+    model_name: "llama3.3-70b"
+    temperature: 0.2
+    max_tokens: 1024
+  
+  Llama-3.1-405b:
+    api_key: "YOUR_API"
+    base_url: "https://api.llama-api.com"
+    model_name: "llama3.1-405b"
+    temperature: 0.2
+    max_tokens: 1024
