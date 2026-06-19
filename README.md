@@ -13,7 +13,7 @@ This repository provides:
 - **Auto-CoT** scripts to automatically generate chain-of-thought (CoT) demonstrations and select the best few-shot prompts for Stage-2 refinement.
 - A technical report describing methodology and results: [System_Report_for_CCL25_Eval_Task_4pdf.pdf](assets/System_Report_for_CCL25_Eval_Task_4pdf.pdf)
 
-**中文版 README**: [README_FIE2025_CN.md](README_FIE2025_CN.md)
+**中文版 README**: [README_FIE2025_CN.md](README_cn.md)
 
 ---
 
